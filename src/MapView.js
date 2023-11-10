@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, Polyline } from 'react-leaflet';
 function MapView({ cities, selectedCities, shortestPath }) {
   return (
     <div>
+        
       <MapContainer
         center={[0, 0]}
         zoom={2}
